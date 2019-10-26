@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Akan names</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="overlay">
+      <div class="container">
+        <div class="jumbotron">
+          <h1>Akan Namer</h1>
+        </div>
+        <div class="form">
+          <div>
+            <h3>
+              Akan is the language of the people called akan.<br />Akan names
+              are derived from Ghanian culture. <br />children are given their
+              first name as a 'day name' which corresponds to the day in the
+              week they were born.<br />
+              It is a cultural event held with high esteem and passed to
+              tradition.
+            </h3>
+            <h2>Fill in the blanks to get your Akan Name</h2>
+            <label>Month</label><br />
+            <input
+              type="text"
+              id="month"
+              placeholder="Month in number"
+              class="form-control"
+              required
+            /><br /><br />
+            <label>Day</label><br />
+            <input
+              type="text"
+              id="day"
+              placeholder="Day in number"
+              class="form-control"
+              required
+            /><br /><br />
+            <label>Year</label><br />
+            <input
+              type="text"
+              id="year"
+              placeholder="Year in number"
+              class="form-control"
+              required
+            /><br /><br />
+            <label>Gender</label><br />
+            <input
+              type="radio"
+              name="gender"
+              id="gender"
+              value="male"
+              checked
+            />
+            Male<br />
+            <input type="radio" name="gender" value="female" /> Female<br />
+            <input
+              type="submit"
+              value="Submit"
+              class="btn btn-primary btn-lg"
+              onclick="submition()"
+            />
+          </div>
+          <p id="display"></p>
+        </div>
+      </div>
+      <script src="main.js"></script>
+    </div>
+  </body>
+</html>
